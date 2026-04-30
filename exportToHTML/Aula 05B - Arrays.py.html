@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Aula 05B - Arrays.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Aula 05B - Arrays.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">requests</span><span class="s2">.</span><span class="s1">utils </span><span class="s0">import </span><span class="s1">unquote_header_value</span>
+
+<span class="s1">lista_frutas </span><span class="s2">= [</span><span class="s3">'laranja'</span><span class="s2">, </span><span class="s3">'uva'</span><span class="s2">, </span><span class="s3">'melão'</span><span class="s2">]</span>
+
+<span class="s4">#lista_frutas[0] =  laranja</span>
+<span class="s4">#lista_frutas[1] = uva</span>
+<span class="s4">#lista_frutas[2] = melão</span>
+
+<span class="s1">print</span><span class="s2">(</span><span class="s1">lista_frutas</span><span class="s2">[</span><span class="s5">1</span><span class="s2">])</span>
+
+<span class="s1">lista_frutas</span><span class="s2">.</span><span class="s1">append</span><span class="s2">(</span><span class="s3">&quot;maçã&quot;</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s1">lista_frutas</span><span class="s2">)</span>
+<span class="s4">#lista_frutas[3] = maçã</span>
+
+<span class="s0">for </span><span class="s1">i </span><span class="s0">in </span><span class="s1">range</span><span class="s2">(</span><span class="s1">len</span><span class="s2">(</span><span class="s1">lista_frutas</span><span class="s2">)):</span>
+    <span class="s1">print</span><span class="s2">(</span><span class="s1">lista_frutas</span><span class="s2">[</span><span class="s1">i</span><span class="s2">])</span>
+
+<span class="s1">print</span><span class="s2">()</span>
+
+<span class="s0">for </span><span class="s1">fruta </span><span class="s0">in </span><span class="s1">lista_frutas</span><span class="s2">:</span>
+    <span class="s1">print</span><span class="s2">(</span><span class="s1">fruta</span><span class="s2">)</span></pre>
+</body>
+</html>

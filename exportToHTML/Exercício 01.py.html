@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Exercício 01.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #cf8e6d;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Exercício 01.py</font>
+</center></td></tr></table>
+<pre><span class="s0">#Dado um conjunto de nomes de quatro pessoas, escreva um algoritmo que imprima todas as possíveis deuplas que podem ser formadas.</span>
+<span class="s0">#Primeiro, crie um vetor e coloque quatro nomes nele. - João, Lucas, Jair, Luís</span>
+<span class="s0">#A seguir, exiba as possíveis duplas.</span>
+
+<span class="s1">nomes </span><span class="s2">= [</span><span class="s3">'João'</span><span class="s2">, </span><span class="s3">'Lucas'</span><span class="s2">, </span><span class="s3">'Jair'</span><span class="s2">, </span><span class="s3">'Luís'</span><span class="s2">]</span>
+
+<span class="s4">for </span><span class="s1">i </span><span class="s4">in </span><span class="s1">range</span><span class="s2">(</span><span class="s1">len</span><span class="s2">(</span><span class="s1">nomes</span><span class="s2">)):</span>
+    <span class="s4">for </span><span class="s1">j </span><span class="s4">in </span><span class="s1">range </span><span class="s2">(</span><span class="s1">i</span><span class="s2">+</span><span class="s5">1</span><span class="s2">, </span><span class="s1">len</span><span class="s2">(</span><span class="s1">nomes</span><span class="s2">)):</span>
+        <span class="s1">print</span><span class="s2">(</span><span class="s1">nomes</span><span class="s2">[</span><span class="s1">i</span><span class="s2">], </span><span class="s1">nomes</span><span class="s2">[</span><span class="s1">j</span><span class="s2">])</span>
+
+<span class="s0">#i=linha; j=coluna</span>
+
+
+
+</pre>
+</body>
+</html>
